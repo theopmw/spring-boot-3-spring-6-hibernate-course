@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mycoolapp (1)" />
         <module name="mycoolapp (2)" />
+        <module name="mycoolapp (3)" />
+        <module name="mycoolapp (1)" />
         <module name="mycoolapp" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="mycoolapp" options="-parameters" />
       <module name="mycoolapp (1)" options="-parameters" />
       <module name="mycoolapp (2)" options="-parameters" />
+      <module name="mycoolapp (3)" options="-parameters" />
     </option>
   </component>
 </project>
