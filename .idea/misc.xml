@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/01-spring-boot-overview/01-spring-boot-demo/pom.xml" />
         <option value="$PROJECT_DIR$/01-spring-boot-overview/03-actuator-demo/pom.xml" />
         <option value="$PROJECT_DIR$/01-spring-boot-overview/04-actuator-security-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/01-spring-boot-overview/05-command-line-demo/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
