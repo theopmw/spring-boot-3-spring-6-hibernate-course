@@ -13,11 +13,12 @@
         <option value="$PROJECT_DIR$/01-spring-boot-overview/04-actuator-security-demo/pom.xml" />
         <option value="$PROJECT_DIR$/01-spring-boot-overview/05-command-line-demo/pom.xml" />
         <option value="$PROJECT_DIR$/01-spring-boot-overview/06-properties-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/02-spring-boot-spring-core/01-constructor-injection/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
