@@ -13,7 +13,7 @@ public class DemoController {
 
     // @Autowired annotation means we can give any method name here and Spring will use it for setter dependency injection
     @Autowired
-    public void setCoach(Coach theCoach) {
+    public void DemoController(Coach theCoach) {
         myCoach = theCoach;
     }
 
