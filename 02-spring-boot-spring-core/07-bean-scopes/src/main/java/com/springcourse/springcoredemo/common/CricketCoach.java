@@ -1,8 +1,13 @@
 package com.springcourse.springcoredemo.common;
 
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+// Prototype bean scope creates new object instance for each injection (a new, separate bean)
+// (singleton is default unless specified like below)
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class CricketCoach implements Coach {
 
     public CricketCoach() {
