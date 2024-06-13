@@ -16,7 +16,7 @@ public class DemoController {
     // @Autowired annotation means we can give any method name here and Spring will use it for setter dependency injection
     @Autowired
     public void DemoController(
-            @Qualifier("swimCoach") Coach theCoach) {
+            @Qualifier("aquatic") Coach theCoach) {
         System.out.println("In constructor: " + getClass().getSimpleName());
         myCoach = theCoach;
     }
