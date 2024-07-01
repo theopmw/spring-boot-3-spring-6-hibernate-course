@@ -41,6 +41,6 @@ public class StudentDAOImpl implements StudentDAO{
         TypedQuery<Student> theQuery = entityManager.createQuery("FROM Student", Student.class);
 
 //        Return query results
-
+        return theQuery.getResultList();
     }
 }
