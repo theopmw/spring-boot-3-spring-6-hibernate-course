@@ -44,7 +44,7 @@ public class CruddemoApplication {
 
 //		Change first name to "Scooby"
 		System.out.println("Updating student...");
-		myStudent.setFirstName("Scooby");
+		myStudent.setFirstName("John");
 
 //		Update the student
 		studentDAO.update(myStudent);
